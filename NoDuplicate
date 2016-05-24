@@ -1,0 +1,23 @@
+import json   
+from pprint import pprint
+
+new_list = set[]
+
+with open('caca2.json') as f:
+    for item in f:
+        if item not in new_set:
+            new_list.sorted(item)
+            
+OR
+
+import json   
+from pprint import pprint
+
+new_set = set()
+
+with open('caca2.json','r+') as f:
+    for item in f:
+        if item not in new_set:
+            open('new_set.json' ,'w')
+            new_set.add(item)
+            print new_set
